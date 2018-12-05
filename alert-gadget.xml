@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
--<Module>
+<Module>
 
 
--<ModulePrefs title="RevelDigital Alert Gadget" background="transparent" author="RevelDigital" description="Custom Alert Gadget">
+<ModulePrefs title="RevelDigital Alert Gadget" background="transparent" author="RevelDigital" description="Custom Alert Gadget">
 
 <UserPref required="true" datatype="hidden" display_name="width" name="rdW"/>
 
@@ -20,9 +20,9 @@
 </ModulePrefs>
 
 
--<Content type="html">
+<Content type="html">
 
--<![CDATA[
+<![CDATA[
 
             <style type="text/css">
 
