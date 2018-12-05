@@ -39,6 +39,22 @@
         <script src="https://reveldigital.github.io/gadget-alert/main.0ae614cae58d7746c3b7.js"></script></body>
     </html>
 
+    <style type="text/css">
+    
+        body*
+        {
+            margin: 0;
+            padding: 0;
+        }
+
+        .border
+        {
+            border-style: solid;
+            border-color: rgb(122, 3, 3);
+        }
+        
+    </style>
+
     <script type="text/javascript">
         var prefs = new gadgets.Prefs();
         function load() {
