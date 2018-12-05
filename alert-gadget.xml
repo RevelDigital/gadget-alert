@@ -23,64 +23,36 @@
 <Content type="html">
 
 <![CDATA[
+    <html lang="en">
+        <head>
+        <meta charset="utf-8">
+        <title>AlertGadget</title>
+        <base href="/">
 
-            <style type="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://reveldigital.github.io/gadget-alert/styles.3bb2a9d4949b7dc120a9.css"></head>
+        <body>
+        <app-root></app-root>
+        <script src="https://reveldigital.github.io/gadget-alert/runtime.ec2944dd8b20ec099bf3.js"></script>
+        <script src="https://reveldigital.github.io/gadget-alert/polyfills.c6871e56cb80756a5498.js"></script>
+        <script src="https://reveldigital.github.io/gadget-alert/main.0ae614cae58d7746c3b7.js"></script></body>
+    </html>
 
-                body *
-                {
-                    letter-spacing:0;
-		    margin: 0;
-		    padding: 0;
+    <script type="text/javascript">
+        var prefs = new gadgets.Prefs();
+        function load() {
+            WebFont.load({
+                google: {
+                    families: [
+                    RevelDigital.getFamilyName(prefs.getString("text-style"))
+                    ]
                 }
-
-                body
-                {
-                    background:transparent;
-                    width: __UP_rdW__px;
-                    height: __UP_rdH__px;
-                    overflow: hidden;
-                }
-
-                
-               
-            </style>
-
-            <html lang="en">
-                <head>
-                <meta charset="utf-8">
-                <title>AlertGadget</title>
-                <base href="/">
-
-                <meta name="viewport" content="width=device-width, initial-scale=1">
-                <link rel="icon" type="image/x-icon" href="favicon.ico">
-                <link rel="stylesheet" href="https://reveldigital.github.io/gadget-alert/styles.3bb2a9d4949b7dc120a9.css"></head>
-                <body>
-                <app-root></app-root>
-                <script src="https://reveldigital.github.io/gadget-alert/runtime.ec2944dd8b20ec099bf3.js"></script>
-                <script src="https://reveldigital.github.io/gadget-alert/polyfills.c6871e56cb80756a5498.js"></script>
-                <script src="https://reveldigital.github.io/gadget-alert/main.0ae614cae58d7746c3b7.js"></script></body>
-            </html>
-
-
-            <script type="text/javascript">
-
-                var prefs = new gadgets.Prefs();
-
-                function load() {
-                    WebFont.load({
-                        google: {
-                            families: [
-                            RevelDigital.getFamilyName(prefs.getString("text-style"))
-                            ]
-                        }
-                    });
-                }
-
-               
-                gadgets.util.registerOnLoadHandler(load);
-
-            </script>
-        ]]>
+            });
+        }
+        gadgets.util.registerOnLoadHandler(load);
+    </script>
+]]>
 </Content>
 
 </Module>
