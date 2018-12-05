@@ -24,21 +24,7 @@
 
 <![CDATA[
 
-    <style type="text/css">
-        
-            body*
-            {
-                margin: 0;
-                padding: 0;
-            }
-
-            .border
-            {
-                border-style: solid;
-                border-color: rgb(122, 3, 3);
-            }
-            
-    </style>
+   
     
     <html lang="en">
         <head>
