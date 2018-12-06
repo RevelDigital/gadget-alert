@@ -24,7 +24,29 @@
 
 <![CDATA[
 
-   
+    <style type="text/css">
+        body *
+        {
+            letter-spacing:0;
+            word-spacing:normal;
+            text-decoration: none;
+        }
+        body
+        {
+            background: transparent;
+            width: __UP_rdW__px;
+            height: __UP_rdH__px;
+            overflow: hidden;
+        }
+
+        .border
+        {
+            border-style: solid;
+            border-color: rgb(122, 3, 3);
+        }
+
+
+    </style>
     
     <html lang="en">
         <head>
@@ -36,7 +58,9 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="https://reveldigital.github.io/gadget-alert/styles.3bb2a9d4949b7dc120a9.css"></head>
         <body>
-        <app-root></app-root>
+        <div class="border">
+            <app-root></app-root>
+        </div>
         <script src="https://reveldigital.github.io/gadget-alert/runtime.ec2944dd8b20ec099bf3.js"></script>
         <script src="https://reveldigital.github.io/gadget-alert/polyfills.c6871e56cb80756a5498.js"></script>
         <script src="https://reveldigital.github.io/gadget-alert/main.0ae614cae58d7746c3b7.js"></script></body>
