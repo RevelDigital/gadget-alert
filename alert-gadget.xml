@@ -39,6 +39,11 @@
             overflow: hidden;
         }
 
+        .border
+        {
+            border-style: solid;
+            border-color: rgb(122, 3, 3);
+        }
         
 
     </style>
