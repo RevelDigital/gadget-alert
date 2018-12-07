@@ -55,6 +55,17 @@
             border-style: solid;
             border-color: rgb(197, 1, 1);
             border-width: 1vh;
+            animation-name: flash;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes flash
+        {
+            0% {border-color: rgb(197, 1, 1);}
+            25% {border-color: rgb(197, 1, 1);}
+            50% {border:none;}
+            100% {border: none}
         }
 
     </style>
