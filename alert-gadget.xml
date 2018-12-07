@@ -45,8 +45,8 @@
         .container
         {
             display: flex;
-            height: __UP_rdH__px;
-            width: __UP_rdW__px;
+            height: __UP_rdH__px - 1vh;
+            width: __UP_rdW__px - 1vh;
             position: relative;
         }
 
