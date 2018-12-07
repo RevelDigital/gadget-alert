@@ -44,7 +44,7 @@
 
         .container
         {
-            display: flex-box;
+            display: flex;
             height:98%;
             width: 98%;
             position: relative;
