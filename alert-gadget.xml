@@ -45,8 +45,8 @@
         .container
         {
             display: flex;
-            height: calc(100% - 1vh);
-            width: calc(100% - 1vh);
+            height: calc(100% - 1.5vh);
+            width: calc(100% - 1.5vh);
             position: relative;
         }
 
