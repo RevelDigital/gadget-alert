@@ -30,6 +30,8 @@
             letter-spacing:0;
             word-spacing:normal;
             text-decoration: none;
+            margin: 0;
+            padding: 0;
         }
 
         body
@@ -45,13 +47,14 @@
             display: flex-box;
             height:100%;
             width: 100%;
+            position: relative;
         }
 
          .border
         {
-            border-style: dotted;
+            border-style: solid;
             border-color: rgb(197, 1, 1);
-            border-width: 5px;
+            border-width: 1vh;
         }
 
     </style>
