@@ -46,10 +46,11 @@
             width: 100%;
         }
 
-        .border
+         .border
         {
             border-style: solid;
-            border-color: rgb(122, 3, 3);
+            border-color: rgb(197, 1, 1);
+            border-width: 5px;
         }
         
 
