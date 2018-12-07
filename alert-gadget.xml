@@ -39,6 +39,13 @@
             overflow: hidden;
         }
 
+        .container
+        {
+            display: flex-box;
+            height:100%;
+            width: 100%;
+        }
+
         .border
         {
             border-style: solid;
