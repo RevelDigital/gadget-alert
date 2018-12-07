@@ -31,6 +31,7 @@
             word-spacing:normal;
             text-decoration: none;
         }
+        
         body
         {
             background: transparent;
@@ -39,7 +40,19 @@
             overflow: hidden;
         }
 
-        
+        .container
+        {
+            display: flex-box;
+            height:100%;
+            width: 100%;
+        }
+
+         .border
+        {
+            border-style: solid;
+            border-color: rgb(197, 1, 1);
+            border-width: 5px;
+        }
 
     </style>
     
