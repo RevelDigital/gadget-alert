@@ -46,7 +46,7 @@
         {
             display: flex;
             height: calc(100% - 1vh);
-            width: calc(98%- 1vh);
+            width: calc(100% - 1vh);
             position: relative;
         }
 
