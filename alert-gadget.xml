@@ -73,8 +73,8 @@
         {
             display: flex;
             font-size: 10vh; 
-            width: 2vh;
-            height: 2vh;
+            width: 10vh;
+            height: 10vh;
             margin: auto;
         }
 
