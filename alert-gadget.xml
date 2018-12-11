@@ -85,8 +85,8 @@
 
         .items
         {    
-            height: auto;
-            width: auto;
+            height: inherit;
+            width: inherit;
         }
 
     </style>
