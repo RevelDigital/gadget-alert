@@ -106,6 +106,7 @@
     
 
     <script type="text/javascript">
+    
         var prefs = new gadgets.Prefs();
         function load() {
             WebFont.load({
