@@ -76,6 +76,12 @@
             font-size: 8vh; 
         }
 
+        img
+        {
+            height: 10vh;
+            width: 5vw;    
+        }
+
     </style>
     
     <html lang="en">
