@@ -78,8 +78,8 @@
 
         img
         {
-            height: 10vh;
-            width: 5vw;    
+            height: 20vh;
+            width: 10vw;    
         }
 
     </style>
