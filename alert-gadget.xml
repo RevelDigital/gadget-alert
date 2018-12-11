@@ -85,7 +85,7 @@
 
         .items
         {
-            display: flex;
+            
             max-width: 40vw;
         }
 
