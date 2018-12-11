@@ -83,7 +83,7 @@
             width: 15vw;    
         }
 
-        .items
+        #items
         {    
             height: inherit;
             width: inherit;
