@@ -86,7 +86,7 @@
         .items
         {
             
-            max-width: 40vw;
+            max-width: 30vw;
         }
 
     </style>
