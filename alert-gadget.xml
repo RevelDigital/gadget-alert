@@ -82,6 +82,11 @@
             width: 15vw;    
         }
 
+        .items
+        {
+            max-width: 50vw;
+        }
+
     </style>
     
     <html lang="en">
