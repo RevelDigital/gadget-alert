@@ -83,11 +83,6 @@
             width: 15vw;    
         }
 
-        #items
-        {    
-            height: inherit;
-            width: inherit;
-        }
 
     </style>
     
