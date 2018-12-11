@@ -78,12 +78,14 @@
 
         img
         {
+            
             height: 30vh;
             width: 15vw;    
         }
 
         .items
         {
+            display: flex;
             max-width: 40vw;
         }
 
