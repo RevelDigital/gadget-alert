@@ -84,6 +84,10 @@
             width: 25vw;    
         }
 
+        h2
+        {
+            __UP_text-style__;
+        }
 
     </style>
     
@@ -98,6 +102,7 @@
         <link rel="stylesheet" href="https://reveldigital.github.io/gadget-alert/styles.3bb2a9d4949b7dc120a9.css"></head>
         <body>
             <app-root></app-root>
+            <h2>__UP_text__</h2>
             <script src="https://reveldigital.github.io/gadget-alert/runtime.ec2944dd8b20ec099bf3.js"></script>
             <script src="https://reveldigital.github.io/gadget-alert/polyfills.c6871e56cb80756a5498.js"></script>
             <script src="https://reveldigital.github.io/gadget-alert/main.0226551c42e9073ae2a0.js"></script>
