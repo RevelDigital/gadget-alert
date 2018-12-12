@@ -73,13 +73,14 @@
 
         h1
         {
-            display: flex;
+            
             text-align: center;
+            font-size: 8vh;
         }
 
         img
         {
-            display: flex;
+            
             margin: auto;
             height: 50vh;
             width: 25vw;    
@@ -87,7 +88,7 @@
 
         h2
         {
-            display: flex;
+            
             text-align: center;
             __UP_text-style__;
         }
