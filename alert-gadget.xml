@@ -48,7 +48,6 @@
             height: calc(100% - 4vh);
             width: calc(100% - 4vh);
             flex-direction:column;
-            align-items:center;
             justify-content:center;
             
         }
@@ -73,7 +72,6 @@
 
         h1
         {
-            
             text-align: center;
             font-size: 8vh;
         }
