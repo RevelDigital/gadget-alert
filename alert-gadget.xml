@@ -61,20 +61,12 @@
             animation-iteration-count: infinite;
         }
 
+        
+
         .marquee 
-        {
-            height: 25px;
-            width: 420px;
-
-            overflow: hidden;
-            position: relative;
-        }
-
-        .marquee div 
         {
             __UP_text-style__;
             display: flex;
-            position: absolute;
             overflow: hidden;
             animation: marquee 5s linear infinite;
         }
