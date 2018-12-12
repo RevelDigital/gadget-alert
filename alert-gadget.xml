@@ -67,14 +67,16 @@
         {
             __UP_text-style__;
             display: flex;
+            width: 100%;
+            white-space: nowrap;
             overflow: hidden;
             animation: marquee 5s linear infinite;
         }
         
         @keyframes marquee 
         {
-            0% { left: 0; }
-            100% { left: -100%; }
+            0%   { transform: translate(0, 0); }
+            100% { transform: translate(-100%, 0); }
         }
 
         @keyframes flash
