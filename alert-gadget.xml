@@ -101,8 +101,7 @@
         <link rel="icon" type="image/x-icon" href="favicon.ico">
         <link rel="stylesheet" href="https://reveldigital.github.io/gadget-alert/styles.3bb2a9d4949b7dc120a9.css"></head>
         <body>
-            <app-root></app-root>
-            
+            <app-root></app-root> 
             <script src="https://reveldigital.github.io/gadget-alert/runtime.ec2944dd8b20ec099bf3.js"></script>
             <script src="https://reveldigital.github.io/gadget-alert/polyfills.c6871e56cb80756a5498.js"></script>
             <script src="https://reveldigital.github.io/gadget-alert/main.d895234ff1a604823f75.js"></script>
