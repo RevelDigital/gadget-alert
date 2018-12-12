@@ -73,6 +73,7 @@
         h1
         {
             display: flex;
+            margin: auto;
             font-size: 8vh; 
         }
 
