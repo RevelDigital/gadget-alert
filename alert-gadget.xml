@@ -72,6 +72,7 @@
 
         .marquee div 
         {
+            __UP_text-style__;
             display: flex;
             position: absolute;
             overflow: hidden;
