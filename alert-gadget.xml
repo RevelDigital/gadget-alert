@@ -78,9 +78,10 @@
 
         img
         {
-            
-            height: 30vh;
-            width: 15vw;    
+            display: flex;
+            margin: auto;
+            height: 50vh;
+            width: 25vw;    
         }
 
 
