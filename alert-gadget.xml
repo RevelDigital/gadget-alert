@@ -71,8 +71,7 @@
             white-space: nowrap;
             overflow: hidden;
             animation: marquee 20s linear infinite;
-            position: absolute;
-            bottom: 20px;
+            
         }
 
        
