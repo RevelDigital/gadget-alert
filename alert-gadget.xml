@@ -64,7 +64,8 @@
         
 
         .marquee 
-        {
+        { 
+            margin: 20px;
             __UP_text-style__;
             display: flex;
             width: 100%;
