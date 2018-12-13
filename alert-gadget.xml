@@ -83,7 +83,7 @@
         @keyframes marquee 
         {
             0%   { transform: translate(100%, 0); }
-            100% { transform: translate(-90%, 0); }
+            100% { transform: translate(-100%, 0); }
         }
 
         @keyframes flash
@@ -130,7 +130,7 @@
             <app-root></app-root> 
             <script src="https://reveldigital.github.io/gadget-alert/runtime.ec2944dd8b20ec099bf3.js"></script>
             <script src="https://reveldigital.github.io/gadget-alert/polyfills.c6871e56cb80756a5498.js"></script>
-            <script src="https://reveldigital.github.io/gadget-alert/main.a3458ef8de30bcc7028f.js"></script>
+            <script src="https://reveldigital.github.io/gadget-alert/main.f72e8e43990c005588e8.js"></script>
         </body>
     </html>
 
