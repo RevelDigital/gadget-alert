@@ -61,18 +61,16 @@
             animation-iteration-count: infinite;
         }
 
-        
-
         .marquee 
         { 
-            
+            postion: absolute;
+            bottom: 20px;         
             __UP_text-style__;
             display: flex;
-            width: 100%;
+            calc(100% - 4vh);
             white-space: nowrap;
             overflow: hidden;
-            animation: marquee 20s linear infinite;
-            
+            animation: marquee 20s linear infinite;   
         }
        
         
