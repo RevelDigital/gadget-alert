@@ -130,8 +130,6 @@
         </body>
     </html>
 
-    
-
     <script type="text/javascript">
 
         var prefs = new gadgets.Prefs();
