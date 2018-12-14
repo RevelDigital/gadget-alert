@@ -15,6 +15,7 @@
 
 <UserPref required="false" datatype="color" display_name="Background Color" name="BackgroundColor" default_value=""/>
 
+<UserPref required="false" datatype="number" display_name="Background Opacity" name="opacity" default_value=""/>
 
 
 </ModulePrefs>
@@ -37,6 +38,7 @@
         body
         {
             background: transparent;
+            opacity: __UP_opacity__;
             width: __UP_rdW__px;
             height: __UP_rdH__px;
             overflow: hidden;
