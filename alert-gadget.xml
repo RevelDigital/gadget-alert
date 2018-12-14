@@ -63,7 +63,7 @@
 
         marquee 
         { 
-            direction: left
+            direction: left;
             postion: absolute;
             bottom: 20px;         
             __UP_text-style__;
