@@ -94,12 +94,19 @@
             width: 25vw;    
         }
 
-        h2
-        {     
+        .items
+        {
+            height: calc(100% - 4vh);
+            display: flex;
             width: calc(100% - 4vh);
+        }
+
+        h2
+        {           
             margin: 30px;
             text-align: center;
             __UP_text-style__;
+            word-spacing: wrap
         }
 
     </style>
