@@ -13,7 +13,6 @@
 
 <UserPref required="true" datatype="style" display_name="Text Style" name="text-style" default_value="font-family:Verdana;color:#000000;font-size:24px;"/>
 
-<UserPref required="false" datatype="number" display_name="Background Opacity" name="opacity" default_value=""/>
 
 
 </ModulePrefs>
@@ -36,7 +35,6 @@
         body
         {
             background: transparent;
-            opacity: __UP_opacity__;
             width: __UP_rdW__px;
             height: __UP_rdH__px;
             overflow: hidden;
@@ -44,6 +42,7 @@
 
         .container
         {
+            background
             display: flex;
             height: calc(100% - 4vh);
             justify-content:center;          
@@ -122,6 +121,8 @@
 
     <script type="text/javascript">
 
+
+
         var prefs = new gadgets.Prefs();
         function load() {
             WebFont.load({
@@ -132,6 +133,9 @@
                 }
             });
         }
+
+
+
         gadgets.util.registerOnLoadHandler(load);
     </script>
 ]]>
