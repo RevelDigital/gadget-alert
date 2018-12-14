@@ -62,10 +62,8 @@
         marquee 
         { 
             direction: left;
-            postion: absolute;
             bottom: 20px;         
             __UP_text-style__;
-            display: flex;
             width: calc(100% - 4vh);
         }
 
