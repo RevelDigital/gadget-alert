@@ -102,7 +102,7 @@
             margin: 30px;
             text-align: center;
             __UP_text-style__;
-            word-spacing: wrap
+            
         }
 
     </style>
