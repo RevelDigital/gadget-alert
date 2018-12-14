@@ -61,23 +61,14 @@
             animation-iteration-count: infinite;
         }
 
-        .marquee 
+        marquee 
         { 
+            direction: left
             postion: absolute;
             bottom: 20px;         
             __UP_text-style__;
             display: flex;
             width: calc(100% - 4vh);
-            white-space: nowrap;
-            overflow: hidden;
-            animation: marquee 20s linear infinite;   
-        }
-       
-        
-        @keyframes marquee 
-        {
-            0%   { transform: translateX(100%) }
-            100% { transform: translateX(-100%) }
         }
 
         @keyframes flash
