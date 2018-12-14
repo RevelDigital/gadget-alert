@@ -13,8 +13,6 @@
 
 <UserPref required="true" datatype="style" display_name="Text Style" name="text-style" default_value="font-family:Verdana;color:#000000;font-size:24px;"/>
 
-<UserPref required="false" datatype="color" display_name="Background Color" name="BackgroundColor" default_value=""/>
-
 <UserPref required="false" datatype="number" display_name="Background Opacity" name="opacity" default_value=""/>
 
 
