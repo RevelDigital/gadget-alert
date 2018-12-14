@@ -46,7 +46,7 @@
         {
             display: flex;
             height: calc(100% - 4vh);
-            width: calc(100% - 4vh);
+            cccccc
             justify-content:center;
             
         }
@@ -94,15 +94,11 @@
             width: 25vw;    
         }
 
-        .items
-        {
-            height: calc(100% - 4vh);
-            display: flex;
-            width: calc(100% - 4vh);
-        }
 
+        
         h2
-        {           
+        {          
+            width: calc(100% - 4vh); 
             margin: 30px;
             text-align: center;
             __UP_text-style__;
